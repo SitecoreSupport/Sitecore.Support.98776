@@ -4,6 +4,6 @@
 @using (Html.BeginField())
 {
     @(Model.SelectionMode == "Single"
-          ? Html.DropDownListFor(x => x.Value, new SelectList(Model.Items, "Value", "Text"), new { size = Model.Rows, @class = "form-control " + Model.CssClass })
-          : Html.ListBoxFor(x => x.Value, new SelectList(Model.Items, "Value", "Text"), new { @class = "form-control " + Model.CssClass }))
+          ? Html.DropDownListFor(x => x.Value, new SelectList(Model.Items, "Value", "Text"), new { size = Model.Rows, @class = "form-control " + Model.CssClass})
+          : Html.ListBoxFor(x => x.Value, new SelectList(Model.Items, "Value", "Text"), new { @class = "form-control" + Model.CssClass}))
 }

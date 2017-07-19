@@ -84,9 +84,9 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Views\Form\EditorTemplates\CheckboxListField.cshtml" />
+    <Content Include="Views\Form\EditorTemplates\DropListField.cshtml" />
     <Content Include="Views\Form\EditorTemplates\ListBoxField.cshtml" />
     <Content Include="Views\Form\EditorTemplates\RadioListField.cshtml" />
-    <Content Include="Views\Form\EditorTemplates\DropListField.cshtml" />
     <None Include="web.config" />
   </ItemGroup>
   <PropertyGroup>
